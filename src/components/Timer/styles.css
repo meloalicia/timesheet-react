@@ -1,0 +1,81 @@
+button#start,
+button#pause,
+button#stop {
+  margin-top: 2rem;
+  font-size: 1rem;
+  border: 0.5rem solid transparent;
+  border-radius: 0.3rem;
+  color: #EDF4ED;
+  background-color: #2A2B2E;
+  cursor: pointer;
+  letter-spacing: 0;
+  font-family: "Dia", Arial, serif;
+  letter-spacing: 0.1rem;
+}
+
+button#start:disabled,
+button#pause:disabled,
+button#stop:disabled {
+  background-color: #4b4a4a8a;
+  cursor: auto;
+}
+
+
+h1#counter {
+  display: flex;
+  flex-direction: row;   
+  align-items: center;
+  justify-content: center;
+  color: #4f4f58;
+  font-family: "Dia", Arial, serif;
+  padding: 3rem;
+  margin-bottom: -3rem;
+  font-size: 3rem;
+}
+
+.timesheet-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.progress-button {
+  margin-top: 2rem;
+  font-size: 1rem;
+  border: 0.1rem solid #ffffff07;
+  border-radius: 0.8rem;
+  color: #EDF4ED;
+  background-color: #273f5e80;
+  cursor: pointer;
+  padding: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 10px 20px -8px #000000b3;
+  transition: color 0.8s ease-in-out, box-shadow 0.8s ease-in-out;
+}
+
+.progress-button::not(:disabled):hover {
+  background-color: #273f5e80;
+}
+
+.timesheet-progress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  #dashboard {
+    color: #fcfafa;
+  }
+  
+  #dashboard:disabled {
+    background-color: #f2f2f2; 
+    color: #5c5b5b; 
+    cursor: not-allowed;
+  } 

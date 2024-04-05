@@ -1,0 +1,16 @@
+.timesheet-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #A7754D;
+    border-radius: 20px 20px 80px 20px;
+    padding: 25px;
+    overflow: hidden;
+}
+
+.timesheet-title {
+    font-size: 4.5rem;
+    color: #EAB464;
+    font-family: "Dia", Arial, serif;
+    letter-spacing: 0.2rem;
+  }
