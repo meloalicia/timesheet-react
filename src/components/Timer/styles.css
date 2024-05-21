@@ -6,7 +6,7 @@ button#stop {
   border: 0.5rem solid transparent;
   border-radius: 0.3rem;
   color: #EDF4ED;
-  background-color: #2A2B2E;
+  background-color: #a24c3d;
   cursor: pointer;
   letter-spacing: 0;
   font-family: "Dia", Arial, serif;
@@ -16,7 +16,7 @@ button#stop {
 button#start:disabled,
 button#pause:disabled,
 button#stop:disabled {
-  background-color: #4b4a4a8a;
+  background-color: #ce9b7b;
   cursor: auto;
 }
 
@@ -26,7 +26,7 @@ h1#counter {
   flex-direction: row;   
   align-items: center;
   justify-content: center;
-  color: #4f4f58;
+  color: #2f1b19;
   font-family: "Dia", Arial, serif;
   padding: 3rem;
   margin-bottom: -3rem;
@@ -47,8 +47,7 @@ h1#counter {
   font-size: 1rem;
   border: 0.1rem solid #ffffff07;
   border-radius: 0.8rem;
-  color: #EDF4ED;
-  background-color: #273f5e80;
+  background-color: #a24c3d;
   cursor: pointer;
   padding: 0.8rem;
   letter-spacing: 0.1rem;
@@ -59,7 +58,7 @@ h1#counter {
 }
 
 .progress-button::not(:disabled):hover {
-  background-color: #273f5e80;
+  background-color: #a24c3d;
 }
 
 .timesheet-progress {
@@ -75,7 +74,7 @@ h1#counter {
   }
   
   #dashboard:disabled {
-    background-color: #f2f2f2; 
-    color: #5c5b5b; 
+    background-color: #ce9b7b; 
+    color: #fcfafa; 
     cursor: not-allowed;
   } 

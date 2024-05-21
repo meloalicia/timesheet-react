@@ -10,20 +10,20 @@
 }
 
 .modal-content {
-  background-color: #989ba0;
+  background-color: #dfbfa8 ;
   margin: 15% auto;
-  padding: 20px;
   width: 80%;
+  padding: 20px;
   max-width: 600px;
   border-radius: 0.5rem;
   line-height: 2rem;
   font-weight: 600;
   font-family: "Dia", Arial, serif;
-  color: #2e2e2edc;
+  color: #341415;
 }
 
 .close {
-  color: #fcfafa;
+  color: #341415;
   float: right;
   font-size: 28px;
   font-weight: bold;
