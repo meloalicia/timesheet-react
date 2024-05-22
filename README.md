@@ -33,16 +33,24 @@ O **Daily Timesheet** é uma aplicação desenvolvida para registrar o início, 
 ### Passos para Rodar o Projeto
 
 1. **Clone o Repositório**:
-   git clone https://github.com/seu-usuario/daily-timesheet.git
+```bash
+git clone https://github.com/seu-usuario/daily-timesheet.git
+```
 
 2. **Navegue até o Diretório do Projeto**:
-   ```cd daily-timesheet
+```bash
+cd daily-timesheet
+```
+   
+4. **Instale as Dependências**:
+```bash
+npm install
+```
 
-3. **Instale as Dependências**:
-   ```npm install
-
-4. **Inicie o Servidor der Desenvolvimento**:
-   ```npm run dev
+5. **Inicie o Servidor der Desenvolvimento**:
+```bash
+npm run dev
+```
 
 ## Como Usar
 **Iniciar**: Começa a contagem do tempo de estudo.
