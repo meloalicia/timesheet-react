@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: #b1740f;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     border-radius: 20px 20px 80px 20px;
     padding: 25px;
     overflow: hidden;
@@ -10,7 +11,7 @@
 
 .timesheet-title {
     font-size: 4.5rem;
-    color: #330F0A;
+    color: #827081;
     font-family: "Dia", Arial, serif;
     letter-spacing: 0.2rem;
   }

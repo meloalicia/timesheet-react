@@ -5,22 +5,24 @@ button#stop {
   font-size: 1rem;
   border: 0.5rem solid transparent;
   border-radius: 0.3rem;
-  color: #EEEEEE;
-  background-color: #B1740F;
+  color: #827081;
+  background-color: #DBD053;
   cursor: pointer;
   letter-spacing: 0;
   font-family: "Dia", Arial, serif;
   letter-spacing: 0.1rem;
+  
 }
 
 button#start:disabled,
 button#pause:disabled,
 button#stop:disabled {
-  background-color: #FFFFFF;
+  background-color: #C6D2ED;
   cursor: auto;
-  color: #330F0A;
+  color: #827081;
   box-shadow: 0 10px 20px -8px #000000b3;
   transition: color 0.8s ease-in-out, box-shadow 0.8s ease-in-out;
+  cursor: not-allowed;
 }
 
 
@@ -29,7 +31,7 @@ h1#counter {
   flex-direction: row;   
   align-items: center;
   justify-content: center;
-  color: 330F0A;
+  color: #827081;
   font-family: "Dia", Arial, serif;
   padding: 3rem;
   margin-bottom: -3rem;
@@ -50,7 +52,7 @@ h1#counter {
   font-size: 1rem;
   border: 0.1rem solid #ffffff07;
   border-radius: 0.8rem;
-  background-color: #B1740F;
+  background-color: #DBD053;
   cursor: pointer;
   padding: 0.8rem;
   letter-spacing: 0.1rem;
@@ -70,11 +72,11 @@ h1#counter {
   }
   
   #dashboard {
-    color: #fcfafa;
+    color: #eeeeee;
   }
   
   #dashboard:disabled {
-    background-color: #FFFFFF; 
-    color: #330F0A; 
+    background-color: #C6D2ED; 
+    color: #827081; 
     cursor: not-allowed;
   } 
